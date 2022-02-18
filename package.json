@@ -1,0 +1,30 @@
+{
+  "name": "utils",
+  "version": "0.0.0",
+  "description": "Utility package for easier development",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdarius/utils.git"
+  },
+  "keywords": [
+    "utils",
+    "utility",
+    "utilities"
+  ],
+  "author": "Darius Rapalis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rdarius/utils/issues"
+  },
+  "homepage": "https://github.com/rdarius/utils#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.18",
+    "typescript": "^4.5.5"
+  }
+}
